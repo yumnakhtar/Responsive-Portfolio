@@ -6,7 +6,6 @@ body{
 
 .wide{
 	background-color: #ffffff;
-	width: 100%;
 }
 
 .head{	
@@ -99,6 +98,12 @@ footer{
 
 }
 
+
+
+
+
+
+
 /*****styling code for index*****/
 
 section{
@@ -117,16 +122,20 @@ section{
 }
 
 
-
 /*****styling code for contact*****/
 
 .inform{
 	margin-left: 30px;
 }
 input {
-	margin-left: 30px;
+
 	height: 30px;
-	width: 900px;
+	width: 93%;
+	margin-left: 30px;
+}
+
+form {
+	width: 100%;
 }
 
 .large{
@@ -135,7 +144,6 @@ input {
 
 .submit {
 	width: 200px;
-	margin-left: 400px;
 	background-color: #4aaaa5;
 	color: #556464;
 }
@@ -150,6 +158,7 @@ input {
 	margin-left: auto;
 	margin-right: auto;
 	height: 1070px;
+	margin-bottom: 120px;
 }
 
 .caption{
@@ -181,8 +190,37 @@ input {
 
 
 
+@media screen and (max-width: 980px) {
+
+	.main, .portfolio {
+		width: 650px;
+		margin-left: 60px;
+	}
+
+	.link {
+		padding-right: 50px;
+	}
+
+	/*contact page adjustments*/
+	input {
+		margin-left: 10px;
+	}
+
+	/*portfolio page adjustments*/
+	.portfolio {
+		height: 1400px;
+	}
+}
+
+@media screen and (max-width: 768px) {
 
 
+	}
+
+@media screen and (max-width: 640px) {
+
+
+	}
 
 
 
