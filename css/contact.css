@@ -61,6 +61,7 @@ hr {
 	clear:both;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 110px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
 }
 
@@ -193,9 +194,9 @@ form {
 
 @media screen and (max-width: 980px) {
 
-	.main, .portfolio {
-		width: 650px;
-		margin-left: 60px;
+	.main, .portfolio, .head {
+		width: 700px;
+		margin-left: auto;
 	}
 
 
@@ -213,13 +214,22 @@ form {
 
 @media screen and (max-width: 768px) {
 
-
+	.main, .portfolio, .head{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
 	}
+}
 
 @media screen and (max-width: 640px) {
-
-
+	
+	.main, .portfolio, .head{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
 	}
+
+}
 
 
 
